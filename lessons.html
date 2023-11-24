@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <title>Spartan Club | Home</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha384-sdfs3SKAIEIfg3V2OWLEsF4RQO8jotEZv5ZLTnguxLYyT5fs3Y9C7F8uozBpH3ai" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-white border-bottom border-gray-100">
+            <div class="container">
+                <a class="navbar-brand m-0 lg:ml-10 flex font-g-bold fs-30px pr-0 lg:pr-8" href="index.html">
+                    <img src="images/logo.png" height="30px" width="30px" alt="">
+                    Spartan Club
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="icon" onclick="changeIcon(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav grid grid-cols-3 ms-auto gap-4 font-g-bold w-full align-items-center">  
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Lessons</a>
+                    <a class="nav-link" href="equipment.html">Equipment</a>
+                    <a class="nav-link" href="shop.html">Shop</a>
+                    <a class="nav-link" href="team.html">Our team</a>
+                    <a class="nav-link" href="becomeMember.html"><button class="become-a-member">Become a member</button></a>
+                  </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="hero-image-lessons">
+                <div class="hero-text">
+                    <h1 style="font-size:50px" class="font-g-bold">Welcome to Our Video Lessons Section</h1>
+                    <p class="font-g-bold">At Spartan Club, we understand that the journey to fitness is unique for everyone. That's why we're excited to introduce our Video Lessons section—a comprehensive resource designed to elevate your fitness experience and empower you on your health and wellness journey.</p>
+                    <a href="#videos" class="membershipButton">Start training</a>
+                </div>
+            </div>
+        </section>
+        <section style="margin-top: 40px; margin-bottom: 20px; margin-left: 10%; margin-right: 10%;">
+            <div class="text-center mb-4">            
+                <h1 class="font-g-bold text-white">What it gives to you?</h1>
+                <div id="accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button fs-5 collapsed" style="background-color: rgb(49, 48, 48); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Unlock the Power of Guided Workouts
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                            <div class="accordion-body" style="background-color: gray; color: white;">
+                                <p class="fs-6">Our Video Lessons feature a diverse range of fitness routines, carefully crafted to suit varying fitness levels, preferences, and goals. Whether you're a beginner taking your first steps toward a healthier lifestyle or an experienced fitness enthusiast looking for fresh challenges, our library of video lessons has something for everyone.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button fs-5 collapsed" style="background-color: rgb(49, 48, 48); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Expert Guidance from Certified Trainers
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                            <div class="accordion-body" style="background-color: gray; color: white;">
+                                <p class="fs-6">Get ready to be motivated and inspired by our team of certified trainers and fitness experts. Each video lesson is led by professionals who bring their wealth of knowledge, experience, and passion for fitness to your screen. Follow along as they guide you through effective workouts, share valuable tips, and provide expert insights to help you achieve your fitness objectives.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button fs-5 collapsed" style="background-color: rgb(49, 48, 48); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Convenience at Your Fingertips
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                            <div class="accordion-body" style="background-color: gray; color: white;">
+                                <p class="fs-6">No need to worry about scheduling conflicts or missing your favorite workout class. Our Video Lessons are available on-demand, allowing you to exercise at a time that suits your schedule. Whether you prefer a morning routine to kickstart your day or an evening session to unwind, the flexibility of our video lessons puts you in control of your fitness journey.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button fs-5 collapsed" style="background-color: rgb(49, 48, 48); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Diverse Workout Options
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
+                            <div class="accordion-body" style="background-color: gray; color: white;">
+                                <p class="fs-6">Explore a variety of workout styles, including strength training, cardio, yoga, and more. With our diverse range of video lessons, you can mix up your routine, target specific muscle groups, and discover new exercises to keep your fitness routine exciting and engaging.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button fs-5 collapsed" style="background-color: rgb(49, 48, 48); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Achieve Your Goals, Anywhere, Anytime
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
+                            <div class="accordion-body" style="background-color: gray; color: white;">
+                                <p class="fs-6">No matter where you are on your fitness journey, our Video Lessons are designed to support you. Whether you're working out from the comfort of your home, hitting the gym, or staying active while traveling, access to our video lessons ensures that you stay on track toward your fitness goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button fs-5 collapsed" style="background-color: rgb(49, 48, 48); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Ready to Start Your Fitness Journey?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordion">
+                            <div class="accordion-body" style="background-color: gray; color: white;">
+                                <p class="fs-6">We invite you to join our thriving fitness community. Share your progress, connect with fellow members, and find inspiration in each other's fitness journeys. Together, we're building a supportive and encouraging space for everyone committed to health and wellness.</p>
+                                <p class="fs-6">Embark on a journey of self-improvement, strength, and well-being with our Video Lessons. Begin your first session today and take a step closer to a healthier, happier you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" id="videos">
+                <div id="fat-loss">
+                    <h2 class="font-g-bold my-4 text-white">Fat loss exercises</h2>
+                    <div class="iframe-container">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/9rKtfaZCkZQ" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <button id="showfatLoseVideo" class="membershipButton become-a-member">Show more</button>
+                    <div id="fatLoseVideo2" class="iframe-container" style="display: none;">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/5surLWUyV2M" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div id="fatLoseVideo3" class="iframe-container" style="display: none;">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/1v0yYf0PiRk" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div id="arms">
+                    <h2 class="font-g-bold my-4 text-white">Exercises for arms</h2>
+                    <div class="iframe-container">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/kiI57DPH3fM" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <button id="showArmsVideo" class="membershipButton become-a-member">Show more</button>
+                    <div id="ArmsVideo2" class="iframe-container" style="display: none;">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ZSzz6JChQhE" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div id="ArmsVideo3" class="iframe-container" style="display: none;">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/6QgR6Tjle7g" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div id="legs">
+                    <h2 class="font-g-bold my-4 text-white">Exercises for legs</h2>
+                    <div class="iframe-container">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/xOy0pKtQwA0" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div id="abs">
+                    <h2 class="font-g-bold my-4 text-white">Exercises for abs</h2>
+                    <div class="iframe-container">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/4rN1wn_l5-M" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="popup">
+            <div class="icon cursor-pointer" id="popUp" onclick="changeIcon(this)">
+                <div class="bar1" style="background-color: #fff;"></div>
+                <div class="bar2" style="background-color: #fff;"></div>
+                <div class="bar3" style="background-color: #fff;"></div>
+            </div>
+            <div class="popuptext" id="popUpElement">
+                <ul class="">
+                    <li><a href="#" style="text-decoration: none;color: white;">Welcome to Our Video Lessons Section</a></li>
+                    <li><a href="#accordion" style="text-decoration: none; color: white;">What it gives to you?</a></li>
+                    <li><a href="#fat-loss" style="text-decoration: none; color: white;">Fat loss exercise</a></li>
+                    <li><a href="#arms" style="text-decoration: none; color: white;">Exercises for arms</a></li>
+                    <li><a href="#legs" style="text-decoration: none; color: white;">Exercises for legs</a></li>
+                    <li><a href="#abs" style="text-decoration: none; color: white;">Exercises for abs</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+   
+    <footer class="container-fluid py-4" style="background-color: black; color: gray;">
+        <div class="grid grid-cols-3 d-flex w-100 flex-column flex-sm-row text-center">
+            <div class="w-100 justify-content-center d-flex">
+              <div>
+                <h5 class="font-g-bold">Contact Information</h5>
+                <div class="col-12">
+                  <ul class="list-unstyled">
+                    <li><a class="text-muted" style="text-decoration: none;">Phone number: +7 777 777 5555</a></li>
+                    <li><a class="text-muted" style="text-decoration: none;">Email: info@SpartanClub.kz</a></li>
+                    <li><a class="text-muted" style="text-decoration: none;">Address: Mangilik el, 99</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="w-100 justify-content-center d-flex">
+              <div>
+                <h5 class="font-g-bold">Quick Links</h5>
+                <div class="d-flex flex-column flex-sm-row">
+                  <div class="col-md-6">
+                    <ul class="list-unstyled">
+                      <li><a href="index.html" class="text-muted" style="text-decoration: none;">Home</a></li>
+                      <li><a href="lessons.html" class="text-muted" style="text-decoration: none;">Lessons</a></li>
+                      <li><a href="equipment.html" class="text-muted" style="text-decoration: none;">Equipment</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="list-unstyled">
+                      <li><a href="shop.html" class="text-muted" style="text-decoration: none;">Shop</a></li>
+                      <li><a href="team.html" class="text-muted" style="text-decoration: none;">Our team</a></li>
+                      <li><a href="becomeMember.html" class="text-muted" style="text-decoration: none;">Become a member</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="w-100 justify-content-center d-flex">
+                <div>
+                    <h5 class="font-g-bold mb-3 w-100">Follow Us</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li id="twitter" class="mx-2" onclick="playMessageSound(this)"><i class="fa-brands fa-twitter" style="color: gray; width:30px; height:30px; cursor: pointer;"></i></li>
+                        <li id="instagram" class="mx-2" onclick="playMessageSound(this)"><i class="fa-brands fa-instagram" style="color: gray; width:30px; height:30px; cursor: pointer;"></i></li>
+                        <li id="facebook" class="mx-2" onclick="playMessageSound(this)"><i class="fa-brands fa-facebook" style="color: gray; width:30px; height:30px; cursor: pointer;"></i></li>
+                    </ul>
+                </div>
+            </div>
+  
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-12 text-center">
+                <p class="text-muted">© 2022 SpartanClub. All rights reserved.</p>
+            </div>
+        </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.0.6/imask.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="functions.js"></script>
+        <script src="jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="splide-4.1.3/dist/js/splide.min.js"></script>
+
+</body>
+</html>

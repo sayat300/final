@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <title>Spartan Club | Home</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha384-sdfs3SKAIEIfg3V2OWLEsF4RQO8jotEZv5ZLTnguxLYyT5fs3Y9C7F8uozBpH3ai" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-white border-bottom border-gray-100">
+            <div class="container">
+                <a class="navbar-brand m-0 lg:ml-10 flex font-g-bold fs-30px pr-0 lg:pr-8" href="index.html">
+                    <img src="images/logo.png" height="30px" width="30px" alt="">
+                    Spartan Club
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="icon" onclick="changeIcon(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav grid grid-cols-3 ms-auto gap-4 font-g-bold w-full align-items-center">  
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="lessons.html">Lessons</a>
+                    <a class="nav-link" href="equipment.html">Equipment</a>
+                    <a class="nav-link" href="shop.html">Shop</a>
+                    <a class="nav-link active" aria-current="page" href="#">Our team</a>
+                    <a class="nav-link" href="becomeMember.html"><button class="become-a-member">Become a member</button></a>
+                  </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <section style="margin-top: 80px; margin-bottom: 20px;">
+        <h1 class="text-center font-g-bold text-white">Our team</h1>
+        <div id="team" style="margin-left: 10%; margin-right: 10%;"></div>
+      </section>
+    </main>
+
+    <footer class="container-fluid py-4" style="background-color: black; color: gray;">
+        <div class="grid grid-cols-3 d-flex w-100 flex-column flex-sm-row text-center">
+            <div class="w-100 justify-content-center d-flex">
+              <div>
+                <h5 class="font-g-bold">Contact Information</h5>
+                <div class="col-12">
+                  <ul class="list-unstyled">
+                    <li><a class="text-muted" style="text-decoration: none;">Phone number: +7 777 777 5555</a></li>
+                    <li><a class="text-muted" style="text-decoration: none;">Email: info@SpartanClub.kz</a></li>
+                    <li><a class="text-muted" style="text-decoration: none;">Address: Mangilik el, 99</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="w-100 justify-content-center d-flex">
+              <div>
+                <h5 class="font-g-bold">Quick Links</h5>
+                <div class="d-flex flex-column flex-sm-row">
+                  <div class="col-md-6">
+                    <ul class="list-unstyled">
+                      <li><a href="index.html" class="text-muted" style="text-decoration: none;">Home</a></li>
+                      <li><a href="lessons.html" class="text-muted" style="text-decoration: none;">Lessons</a></li>
+                      <li><a href="equipment.html" class="text-muted" style="text-decoration: none;">Equipment</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="list-unstyled">
+                      <li><a href="shop.html" class="text-muted" style="text-decoration: none;">Shop</a></li>
+                      <li><a href="team.html" class="text-muted" style="text-decoration: none;">Our team</a></li>
+                      <li><a href="becomeMember.html" class="text-muted" style="text-decoration: none;">Become a member</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="w-100 justify-content-center d-flex">
+                <div>
+                    <h5 class="font-g-bold mb-3 w-100">Follow Us</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li id="twitter" class="mx-2" onclick="playMessageSound(this)"><i class="fa-brands fa-twitter" style="color: gray; width:30px; height:30px; cursor: pointer;"></i></li>
+                        <li id="instagram" class="mx-2" onclick="playMessageSound(this)"><i class="fa-brands fa-instagram" style="color: gray; width:30px; height:30px; cursor: pointer;"></i></li>
+                        <li id="facebook" class="mx-2" onclick="playMessageSound(this)"><i class="fa-brands fa-facebook" style="color: gray; width:30px; height:30px; cursor: pointer;"></i></li>
+                    </ul>
+                </div>
+            </div>
+  
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-12 text-center">
+                <p class="text-muted">© 2022 SpartanClub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="functions.js"></script>
+    <script src="team.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+
+</body>
+</html>
